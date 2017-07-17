@@ -21,8 +21,8 @@ header{
 	position: fixed;
 	display: flex;
 	align-items: center;
-	animation: fadeIn 4s ease 0s 1 normal;
-  -webkit-animation: fadeIn 4s ease 0s 1 normal;
+	/*animation: fadeIn 4s ease 0s 1 normal;
+  -webkit-animation: fadeIn 4s ease 0s 1 normal;*/
 }
 header h1{
 	font-family: "museo-sans-display", sans-serif;
@@ -37,12 +37,22 @@ header h1{
 	align-items: center;
 	justify-content: center;
 }
-#circle{
-	width: 200px;
-	height: 200px;
+#circle_bl{
+	width: 400px;
+	height: 400px;
 	background-color: rgba(0, 0, 0, 1.0);
-	border-radius: 100px;
+	border-radius: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	animation: small 1s linear 0s 1 alternate forwards running;
+}
+#circle_wh{
+	width: 380px;
+	height: 380px;
+	background-color: rgba(255, 255, 255, 1.0);
+	border-radius: 190px;
+	/*animation: small 1s linear 0s 1 alternate forwards running;*/
 }
 @keyframes small {
 	0% {
