@@ -9,28 +9,7 @@
 		<script src="https://use.typekit.net/dlp3lvp.js"></script>
 		<script>try{Typekit.load({ async: true });}catch(e){}</script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-		<script>
-			$(function() {
-			  var h = $(window).height();
-			  $('#contents').css('display','none');
-				$('#loader-bg ,#loader').height(h).css('display','flex');
-				$('#loader-bg ,#loader').height(h).css('align-items','center');
-			  $('#loader-bg ,#loader').height(h).css('justify-content','center');
-			});
-			$(window).load(function () {
-			  $('#loader-bg').delay(900).fadeOut(800);
-			  $('#loader').delay(600).fadeOut(300);
-			  $('#contents').css('display', 'block');
-			});
-			$(function(){
-			  setTimeout('stopload()',5000);
-			});
-			function stopload(){
-			  $('#contents').css('display','block');
-			  $('#loader-bg').delay(900).fadeOut(800);
-			  $('#loader').delay(600).fadeOut(300);
-			}
-		</script>
+		<script src="./js/loading.js"></script>
 	<link type="text/css" rel="stylesheet" href="./css/Eric_Meyer's_Reset_CSS.css" media="all" />
 	<link type="text/css" rel="stylesheet" href="./css/style.css" media="all" />
 	</head>
@@ -63,10 +42,34 @@
 			<div id="works_wrap">
 				<div id="ul_wrap">
 					<ul>
-						<li id="music"><a>music</a></li>
-						<li id="photo"><a>photo</a></li>
-						<li id="web"><a>web</a></li>
-						<li id="etc"><a>etc</a></li>
+						<li id="music">
+							<img src="./svg/music.svg" alt="">
+							<figcaption>
+								<h2>soundcloud</h2>
+								<p>只野ぐらすという名前で音楽をしています。</p>
+							</figcaption>
+						</li>
+						<li id="photo">
+							<img src="./svg/photo.svg" alt="">
+							<figcaption>
+								<h2>tumblr</h2>
+								<p>只野ぐらすという名前で写真をしています。</p>
+							</figcaption>
+						</li>
+						<li id="web">
+							<img src="./svg/web.svg" alt="">
+							<figcaption>
+								<h2>web</h2>
+								<p>このWebページについて。</p>
+							</figcaption>
+						</li>
+						<li id="etc">
+							<!-- <img src="./svg/music.svg" alt=""> -->
+							<figcaption>
+								<h2>その他</h2>
+								<p>その他です。</p>
+							</figcaption>
+						</li>
 					</ul>
 				</div>
 			</div>
