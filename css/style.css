@@ -2,6 +2,7 @@ html, body{
 	width: 100%;
 	height: 100%;
 	position: relative;
+	background: none;
 	animation: fadeIn 2s ease 0s 1 normal;
   -webkit-animation: fadeIn 2s ease 0s 1 normal;
 }
@@ -12,6 +13,19 @@ html, body{
 @-webkit-keyframes fadeIn {
     0% {opacity: 0}
     100% {opacity: 1}
+}
+body::before_{
+	background:url("../jpg/FH000003.JPG") repeat center top;
+  background-size: auto auto;
+  display: block;
+  position: fixed;  /* スマホ用にコレで代替。 */
+  top: 0;
+  left: 0;
+  width: 100%;  /* サイズ指定。 */
+  height: 100%;  /* サイズ指定。 */
+  padding-bottom: 0;
+  content: "";
+  z-index: -1;
 }
 header{
 	width: 100%;
