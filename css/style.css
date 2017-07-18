@@ -235,6 +235,12 @@ header h1{
 	  color: #000000;
 	  text-align: center;
 	}
+	#music img,
+	#photo img,
+	#web img,
+	#etc img {
+	  /*width: 38vw;*/
+	}
 }
 
 #music *,
