@@ -1,8 +1,4 @@
 $(function(){
-		// window_load();
-		// window.onresize = window_load;
-		// function window_load() {
-		// }
 		var sW = window.innerWidth;
 		var sH = window.innerHeight;
 		aspectRatio = sW / sH;
