@@ -1,0 +1,53 @@
+#music img,
+#photo img,
+#web img,
+#etc img{
+	height: 100%;
+}
+@media screen and (min-width: 1025px){
+	#music img {
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+	#photo img,
+	#web img {
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+}
+@media screen and (max-width: 1024px){
+	#music img {
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+	#photo img {
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+	#web img {
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+}
+@media screen and (max-width: 640px){
+	#music img {
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+	#photo img {
+		position: relative;
+		top: 0;
+		left: 0	;
+	}
+	#web img {
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+}
