@@ -146,7 +146,8 @@ header h1{
 #profile_wrap{
 	width: 100%;
 	height: 100vh;
-	background-image: url("../jpg/FH000003.JPG");
+	background-image: url("../svg/FH000003.svg");
+	/*background-image: url("../jpg/FH000003.JPG");*/
 	background-position: top center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -173,7 +174,8 @@ header h1{
 /* +-----+-----+-----+-----+ */
 #works_wrap{
 	width: 100%;
-	background-image: url("../jpg/FH000007.JPG");
+	background-image: url("../svg/FH000007.svg");
+	/*background-image: url("../jpg/FH000007.JPG");*/
 	background-position: top center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -428,7 +430,8 @@ header h1{
 #buildingNow{
 	width: 100%;
 	height: 100vh;
-	background-image: url("../jpg/FH000008.JPG");
+	background-image: url("../svg/FH000008.svg");
+	/*background-image: url("../jpg/FH000008.JPG");*/
 	background-position: top center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
